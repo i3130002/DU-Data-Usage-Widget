@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_widget_card"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <!-- Top row: amount + progress bar + refresh -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="7dp">
+
+        <!-- Data amount -->
+        <TextView
+            android:id="@+id/tv_data_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Usage"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#F0F0FF"
+            android:layout_marginEnd="12dp" />
+
+        <!-- Progress bar -->
+        <ProgressBar
+            android:id="@+id/pb_data"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            android:layout_weight="1"
+            android:max="1000"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_data_bar"
+            android:layout_marginEnd="12dp" />
+
+        <!-- Refresh button -->
+        <TextView
+            android:id="@+id/btn_refresh"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:text="🔄"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <!-- Bottom row: renews time + days left -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_renews"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Renews in --:--"
+            android:textSize="10sp"
+            android:textColor="#A0FFFFFF"
+            android:letterSpacing="0.03" />
+
+        <!-- Days left badge -->
+        <TextView
+            android:id="@+id/tv_days_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-- days left"
+            android:textSize="10sp"
+            android:textColor="#63BEFF"
+            android:letterSpacing="0.04"
+            android:background="@drawable/bg_days_badge"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

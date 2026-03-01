@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DU Data Usage Widget</string>
+    <string name="widget_name">DU Wide Widget</string>
+    <string name="widget_name_compact">DU Compact Widget</string>
+    <string name="data_usage_label">Data Usage</string>
+    <string name="days_left_format">%1$d days left</string>
+    <string name="renews_in_format">Renews in %1$dh %2$dm</string>
+    <string name="placeholder_days">-- days left</string>
+    <string name="placeholder_time">--h --m</string>
+    <string name="refresh_emoji">🔄</string>
+    <string name="placeholder_data">-- GB</string>
+    <string name="label_renews">RENEWS</string>
+    <string name="msg_grant_permission">Grant SMS permissions</string>
+    <string name="msg_updating">Updating...</string>
+    <string name="msg_error">Error</string>
+</resources>
