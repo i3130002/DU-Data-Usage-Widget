@@ -4,6 +4,8 @@ An elegant, minimalist Android widget designed specifically for **du (UAE)** use
 
 No more manual dial codes or opening slow apps. Just a glance at your home screen to see exactly how much data you have left.
 
+![Screenshot_20260301_150606_One UI Home](https://github.com/user-attachments/assets/db32c00b-f6a9-47a3-95ae-8e5f7baeb552)
+
 ---
 
 ## ✨ Features
